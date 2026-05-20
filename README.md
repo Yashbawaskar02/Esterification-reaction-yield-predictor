@@ -93,16 +93,16 @@ An R² of **0.65** means the model explains 65 % of the variance in yield it is 
 ## Sample Visualisations
 
 **EDA Overview** — correlation matrix, feature importances
-![EDA Overview](images/correlation_matrix.png)
+![EDA Overview](esterification-yield-predictior/images/correlation_matrix.png)
 
 **EDA Overview** — scatter plots 
-![EDA Overview](images/scatter.png)
+![EDA Overview](esterification-yield-predictior/images/scatter.png)
 
 **EDA Overview** — histogram plots 
-![EDA Overview](images/histograms.png)
+![EDA Overview](esterification-yield-predictior/images/histograms.png)
 
 **Model Evaluation** — actual vs predicted
-![Model Evaluation](images/actual_vs_predicted.png)
+![Model Evaluation](esterification-yield-predictior/images/actual_vs_predicted.png)
 
 ---
 
