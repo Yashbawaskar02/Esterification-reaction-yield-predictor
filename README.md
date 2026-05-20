@@ -27,8 +27,11 @@ The overall idea was to simulate how a process engineer or chemist might quickly
 
 ## Folder Structure
 
-
-esterification_yield_predictor/
+```text
+Esterification-reaction-yield-predictor/
+│
+├── README.md
+├── requirements.txt
 │
 ├── data/
 │   └── esterification_data.csv
@@ -36,14 +39,12 @@ esterification_yield_predictor/
 ├── notebook/
 │   └── esterification_predictor.py
 │
-├── images/
-│   ├── scatter_plots.png
-│   ├── histograms.png
-│   ├── correlation_matrix.png
-│   └── actual_vs_predicted.png
-│
-├── requirements.txt
-└── README.md
+└── images/
+    ├── correlation_matrix.png
+    ├── scatter.png
+    ├── histograms.png
+    └── actual_vs_predicted.png
+```
 
   Dataset Features
 
@@ -180,3 +181,9 @@ Built as a personal ML + chemistry portfolio project.
 Originally started as a small regression practice exercise and slowly turned into a process analytics mini-project.
 
 Feel free to fork it, modify it, or use the idea for your own portfolio projects.
+
+## License
+
+This project is licensed under the MIT License — feel free to use, modify, and distribute this project.
+
+```text
