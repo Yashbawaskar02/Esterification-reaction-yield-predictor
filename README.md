@@ -71,9 +71,11 @@ Esterification-reaction-yield-predictor/
 ## Model Performance Summary
 
 
-Linear Regression  →  RMSE = 5.48  |  R² = 0.650
-Random Forest      →  RMSE = 6.09  |  R² = 0.567
-
+Linear Regression  →  RMSE = 2.45  |  R² = 0.91
+Random Forest      →  RMSE = 2.88  |  R² = 0.876
+CV Mean R² → 0.884 (LR), 0.803 (RF)
+CV Std Dev → ±0.029 (LR), ±0.046 (RF)
+Residual mean → +0.50%
 
 An R² of **0.65** means the model explains 65 % of the variance in yield it is solid for a linear model with only four features and no feature engineering.
 
